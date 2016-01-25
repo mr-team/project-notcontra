@@ -3,12 +3,11 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	static PlayerController playerController;
+	
 
 	void Start ()
 	{
-		if (playerController == null)
-			playerController = GetComponent<PlayerController> ();
+		
 	}
 
 
